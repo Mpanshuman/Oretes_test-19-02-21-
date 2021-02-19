@@ -1,0 +1,15 @@
+test case 1:
+input: 11/25/11 AM
+output: 11/25/11
+
+test case 2:
+input: 11/25/11 PM
+output: 23/25/11
+
+test case 3:
+input: 12/10/11 AM
+output: 00/25/11
+
+test case 4:
+input: 12/10/11 PM
+output: 12/10/11
