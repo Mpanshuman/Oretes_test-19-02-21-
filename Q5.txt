@@ -1,0 +1,35 @@
+test case 1:
+
+input: 
+Enter Number of books:3
+Enter attributes with spaces:400 56 11
+Enter attributes with spaces:500 240 45
+Enter attributes with spaces:200 100 10
+Enter your choice page,price,chapter?:price
+
+output: 
+[{'page': 400, 'price': 56, 'chapter': 11}, {'page': 200, 'price': 100, 'chapter': 10}, {'page': 500, 'price': 240, 'chapter': 45}]
+
+
+test case 2:
+
+input: 
+Enter Number of books:3
+Enter attributes with spaces:400 56 11
+Enter attributes with spaces:500 240 45
+Enter attributes with spaces:200 100 10
+Enter your choice page,price,chapter?:page
+output: 
+[{'page': 200, 'price': 100, 'chapter': 10}, {'page': 400, 'price': 56, 'chapter': 11}, {'page': 500, 'price': 240, 'chapter': 45}]
+
+test case 3:
+
+input:
+Enter Number of books:3
+Enter attributes with spaces:400 56 11
+Enter attributes with spaces:500 240 45
+Enter attributes with spaces:200 100 10
+Enter your choice page,price,chapter?:chapter 
+
+output: 
+[{'page': 200, 'price': 100, 'chapter': 10}, {'page': 400, 'price': 56, 'chapter': 11}, {'page': 500, 'price': 240, 'chapter': 45}]

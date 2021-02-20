@@ -1,32 +1,64 @@
 test case 1:
 
 input: 
-Number of Chocolate: 6
+Enter Number of chocolate:5
 Enter amount:12
-price of chocolate with spaces:1 5 7 12 16 23
+price of chocolate with spaces:1 5 7 12 6
 
 output: 
-1 2
+2 1
 
 test case 2:
 input: 
-Enter Number of chocolate:7
-Enter amount:25
-price of chocolate with spaces:1 12 10 3 13 11 5
+Enter Number of chocolate:5
+Enter amount:6
+price of chocolate with spaces:1 5 7 12 6
 
 output: 
-1 4
+1 0
 
 
 test case 3:
 input: 
-Enter Number of chocolate:5
-Enter amount:18
-price of chocolate with spaces:10 2 3 8 1
+Enter Number of chocolate:6
+Enter amount:25
+price of chocolate with spaces:20 2 3 10 5 8
 
 output: 
-3 0
+0 4
 
 test case 4:
-input: 12/10/11 PM
-output: 12/10/11
+input:
+Enter Number of chocolate:2
+Enter amount:10
+price of chocolate with spaces:5 5
+
+output:
+0 1
+test case 5:
+input:
+Enter Number of chocolate:1
+Enter amount:10
+price of chocolate with spaces:10
+
+
+output:
+Number of chocolate needs to be min 2
+
+test case 6:
+input:
+Enter Number of chocolate:2
+Enter amount:10
+price of chocolate with spaces:5 6
+
+output:
+They will not buy any chocolate
+
+test case 7:
+input:
+Enter Number of chocolate:6
+Enter amount:6
+price of chocolate with spaces:10 2 11 20 26 22
+
+output:
+They won't any chocolate

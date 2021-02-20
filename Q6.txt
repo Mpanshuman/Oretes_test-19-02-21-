@@ -1,0 +1,22 @@
+test case 1:
+
+input: 
+Enter The Sentence:131/265 is where I and Sam Live.
+
+output: 
+/.iswhereandamiveISL1312656
+
+test case 2:
+
+input: Enter The Sentence:M.p.Anshuman@10
+
+output: 
+..@pnshumanMA100
+
+test case 3:
+
+input:
+Enter The Sentence:asda@33123Sdaw wada231@341dsf
+
+output: 
+@@asdadawwadadsfS331232313411

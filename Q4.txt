@@ -1,0 +1,26 @@
+test case 1:
+input:
+Enter Number of input:3
+Enter the words with spaces:Anshuman Issan Anshuman
+
+output:
+Anshuman 8 2
+Issan 5 1
+
+test case 2:
+input:
+Enter Number of input:4
+Enter the words with spaces:New Old Old Existing 
+
+output:
+Existing 8 1
+Old 3 2
+New 3 1
+
+test case 3:
+input:
+Enter Number of input:5
+Enter the words with spaces:same same same same same
+ 
+output: 
+same 4 5

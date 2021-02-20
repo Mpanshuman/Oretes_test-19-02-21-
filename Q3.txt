@@ -1,0 +1,28 @@
+test case 1:
+input:
+Enter Number of marks:3
+Enter marks of alice with spaces:12 18 55
+Enter marks of bob with spaces:22 10 18
+output:
+alice won
+
+
+test case 2:
+input:
+Enter Number of marks:4
+Enter marks of alice with spaces:10 10 10 10
+Enter marks of bob with spaces:10 10 10 10
+
+output:
+draw
+
+
+test case 3:
+input:
+Enter Number of marks:6
+Enter marks of alice with spaces:11 18 17 45 55 60
+Enter marks of bob with spaces:13 55 67 34 12 68
+output:
+bob won
+
+

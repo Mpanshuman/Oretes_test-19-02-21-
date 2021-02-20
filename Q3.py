@@ -1,4 +1,4 @@
-size = int(input('Enter Number of input:'))
+size = int(input('Enter Number of marks:'))
 alice = list(map(int,input('Enter marks of alice with spaces:').split()))
 bob = list(map(int,input('Enter marks of bob with spaces:').split()))
 
@@ -6,7 +6,7 @@ alice_point = 0
 bob_point = 0
 
 # comparing marks of alice and bob and assiging points
-for i in range(5):
+for i in range(size):
     if alice[i] < bob[i]:
         bob_point +=1
     elif alice[i] > bob[i]:

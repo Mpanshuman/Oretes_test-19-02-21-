@@ -1,13 +1,21 @@
-book1 = [500,250,22]
-book2 = [148,55,10]
-book3 = [207,199,31]
-choise = input('Enter your choise page,price,chapter?:')
-book1_dict  = {'page':book1[0],'price':book1[1],'chapter':book1[2]}
-book2_dict  = {'page':book2[0],'price':book2[1],'chapter':book2[2]}
-book3_dict  = {'page':book3[0],'price':book3[1],'chapter':book3[2]} 
-lis_book = [book1_dict,book2_dict,book3_dict]
-def sort_books(choise):
-    print (sorted(lis_book, key = lambda i: i[choise]))
+number_of_book =int(input('Enter Number of books:'))
+book_list = []
+lis_book = []
+
+for books in range(number_of_book):
+    book_list.append(list(map(int,input('Enter attributes with spaces:').split())))
+
+choice = input('Enter your choice page,price,chapter?:')
+
+# converting the attributes of the book into dictionary
+
+for book_num,book in enumerate(book_list):
+    lis_book.append(dict({'page':book[0],'price':book[1],'chapter':book[2]}))
+    
+# sorting the dict based on the choice given by the user
+
+def sort_books(choice):
+    print (sorted(lis_book, key = lambda i: i[choice]))
 
 if __name__ == "__main__":
-    sort_books(choise)
+    sort_books(choice)
